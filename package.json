@@ -4,13 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dist:max": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "budo --live --verbose --port 3000 --open",
-    "startvr": "budo --live --verbose --port 3000 --open --ssl"
+    "start": "webpack serve --hot-only --inline --port 5000 --https"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "budo": "^11.6.4"
+  },
+  "devDependencies": {
+    "webpack": "^5.6.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
   }
 }
