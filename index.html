@@ -21,6 +21,7 @@
         </a-cylinder>
 
         <a-cylinder
+          visible="false"
           position="-0.25 0.47 0.2" 
           radius="0.05" 
           height="0.94" 
@@ -60,16 +61,10 @@
 
         <a-entity
           position="0 1.04 0" rotation="0 15 0">
-          <a-sphere
-            transparent="true"
-            opacity="0.5"
-            radius="0.15"
-            color="red"
-          />
           <a-box
             visible="true"
-            transparent="true"
-            opacity="0.0"
+            transparent="false"
+            opacity="1.0"
             width="1.05" 
             height="0.03" 
             depth="1.05"
@@ -78,7 +73,7 @@
           </a-box>
 
           <a-entity
-            position="-0.2 -0.05 0">
+            position="-0.14 -0.05 0">
             <a-box
               width="0.04" 
               height="0.09" 
@@ -96,14 +91,14 @@
           </a-entity>
 
           <a-entity
-            position="0.15 -0.05 0.15" 
+            position="0.22 -0.05 0.15" 
             rotation="0 -60 0"
             >
             <a-box
               width="0.04" 
               height="0.09" 
-              depth="1.1" 
-              position="0 0 0.15"
+              depth="1.15" 
+              position="-0.10 0 0.20"
               src="#wood"></a-box>
           </a-entity>
 
@@ -170,38 +165,7 @@
               depth="0.09" 
               position="0 -0.6 0"
               src="#wood"></a-box>
-            <a-box
-              width="0.09" 
-              height="1.2" 
-              depth="0.04" 
-              position="0.3 -0.6 0.03"
-              src="#wood"></a-box>
-
-            <a-box
-              width="0.09" 
-              height="0.4" 
-              depth="0.04" 
-              rotation="0 0 90"
-              position="0.15 -0.3 0.05"
-              src="#wood"></a-box>
-
-            <a-box
-              width="0.09" 
-              height="0.4" 
-              depth="0.04" 
-              rotation="0 0 90"
-              position="0.15 -0.6 0.05"
-              src="#wood"></a-box>
-
-            <a-box
-              width="0.09" 
-              height="0.4" 
-              depth="0.04" 
-              rotation="0 0 90"
-              position="0.15 -0.9 0.05"
-              src="#wood"></a-box>
-
-
+ 
            </a-entity>
 
           <a-entity
