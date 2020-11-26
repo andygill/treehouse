@@ -6,7 +6,7 @@
   "scripts": {
     "dist:max": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve --hot-only --inline --port 5000 --https"
+    "start": "webpack serve --host 0.0.0.0 --hot-only --inline --port 5000 --https"
   },
   "author": "",
   "license": "ISC",

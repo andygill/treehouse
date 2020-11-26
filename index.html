@@ -28,7 +28,7 @@
           color="#FFC65D">
         </a-cylinder>         
 
-        <a-entity 
+        <a-entity
           visible="false"
           position="0 0.75 0" 
           rotation="60 -90 0">
@@ -62,15 +62,74 @@
         <a-entity
           position="0 1.04 0" rotation="0 15 0">
           <a-box
-            visible="true"
-            transparent="false"
-            opacity="1.0"
+            visible="false"
+            transparent="true"
+            opacity="0.1"
             width="1.05" 
             height="0.03" 
             depth="1.05"
             position="0 0 0"
             src="#wood">
           </a-box>
+
+          <a-entity rotation="0 90 0">
+            <a-box
+              visible="true"
+              transparent="true"
+              width="0.154" 
+              height="0.03" 
+              depth="1.05"
+              position="0.43 0 0"
+              src="#wood">
+            </a-box>
+            <a-box
+              visible="true"
+              transparent="true"
+              width="0.154" 
+              height="0.03" 
+              depth="1.05"
+              position="0.26 0 0"
+              src="#wood">
+            </a-box>
+            <a-box
+              visible="true"
+              transparent="true"
+              width="0.154" 
+              height="0.03" 
+              depth="1.05"
+              position="0.09 0 0"
+              src="#wood">
+            </a-box>
+            <a-box
+              visible="true"
+              transparent="true"
+              width="0.154" 
+              height="0.03" 
+              depth="1.05"
+              position="-0.09 0 0"
+              src="#wood">
+            </a-box>
+            <a-box
+              visible="true"
+              transparent="true"
+              width="0.154" 
+              height="0.03" 
+              depth="1.05"
+              position="-0.26 0 0"
+              src="#wood">
+            </a-box>
+            <a-box
+              visible="true"
+              transparent="true"
+              width="0.154" 
+              height="0.03" 
+              depth="1.05"
+              position="-0.43 0 0"
+              src="#wood">
+            </a-box>
+
+          </a-entity>
+
 
           <a-entity
             position="-0.14 -0.05 0">
@@ -80,13 +139,6 @@
               depth="1.0" 
               rotation="0 0 0"
               src="#wood">
-              <a-box
-                position="0 -0.09 0" 
-                width="0.04" 
-                height="0.09" 
-                depth="0.6" 
-                rotation="0 0 0"
-                src="#wood"></a-box>
             </a-box>
           </a-entity>
 
@@ -97,10 +149,25 @@
             <a-box
               width="0.04" 
               height="0.09" 
-              depth="1.15" 
+              depth="0.3" 
               position="-0.10 0 0.20"
-              src="#wood"></a-box>
+              src="#wood"
+              ></a-box>
           </a-entity>
+
+          <a-entity
+            position="0.22 -0.05 -0.15" 
+            rotation="0 -90 0"
+            >
+            <a-box
+              width="0.04" 
+              height="0.09" 
+              depth="0.3" 
+              position="-0.10 0 0.20"
+              src="#wood"
+              ></a-box>
+          </a-entity>
+
 
           <a-entity
             position="0 -0.05 0" 
@@ -136,24 +203,20 @@
             <a-box
               width="0.04" 
               height="0.09" 
-              depth="0.6" 
-              position="0.20 0 -0.21"
+              depth="1" 
+              position="0.15 0 0"
               src="#wood"></a-box>
 
-            <a-box
-              width="0.04" 
-              height="0.09" 
-              depth="0.4" 
-              position="0.3 0 0.3"
-              src="#wood"></a-box>
 
-            <a-box
+              <a-box
+              rotation="0 0 90"
               width="0.04" 
               height="0.09" 
-              depth="0.3" 
-              position="0.1 0 0.35"
+              depth="1.0" 
+              position="-0.4 0.03 0"
               src="#wood"></a-box>
-          
+              
+
           </a-entity>          
 
           <a-entity
@@ -164,50 +227,70 @@
               height="1.2" 
               depth="0.09" 
               position="0 -0.6 0"
-              src="#wood"></a-box>
+              src="#wood">
+              <a-sphere
+                position="0 0 0.04"
+                radius="0.04"
+                color="red">
+              </a-sphere>
+              <a-sphere
+                position="-0.04 0.2"
+                radius="0.04"
+                color="green">
+              </a-sphere>
+              <a-sphere
+                position="-0.04 -0.2"
+                radius="0.04"
+                color="blue">
+              </a-sphere>
+            </a-box>
  
            </a-entity>
 
-          <a-entity
-            position="0.45 -0.1 0" 
-            rotation="0 0 -30"
-            >
-            <a-box
-              width="0.09" 
-              height="0.7" 
-              depth="0.05" 
-              position="0 -0.3 0"
-              src="#wood"></a-box>
-          </a-entity>
 
-          <a-entity
-            position="0.0 -0.1 -0.45" 
-            rotation="0 -90 30"
-            >
-            <a-box
-              width="0.09" 
-              height="0.7" 
-              depth="0.05" 
-              position="0 -0.3 0"
-              src="#wood"></a-box>
-          </a-entity>
+           <a-entity
+           position="0.45 -0.1 0" 
+           rotation="0 0 -30"
+           >
+           <a-box
+             width="0.09" 
+             height="0.7" 
+             depth="0.05" 
+             position="0 -0.3 0"
+             src="#wood"></a-box>
+         </a-entity>
+
+         <a-entity
+           position="0.0 -0.1 -0.45" 
+           rotation="0 -90 30"
+           >
+           <a-box
+             width="0.09" 
+             height="0.7" 
+             depth="0.05" 
+             position="0 -0.3 0"
+             src="#wood"></a-box>
+         </a-entity>
+
 
         </a-entity>
+
+
         
       </a-entity>
 
       <a-entity rotation="165 -30 0" position="-0.88 1.3 -2.55">
         <a-obj-model scale="1.15 1.15 1.15" src="#tree-obj" mtl="#tree-mtl"></a-obj-model>
-    </a-entity>
+      </a-entity>
 
       <a-sky color="#ECECEC"></a-sky>
 
 
       <a-entity id="rig"
-        position="0 1.6 0"
+        position="0 0 0"
         rotation="0 0 0">
         <a-entity camera
-            position="0 0 0"
+            position="0 1.6 0"
             wasd-controls 
             look-controls="pointerLockEnabled: true">
           </a-entity>
