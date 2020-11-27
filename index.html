@@ -294,9 +294,14 @@
             wasd-controls 
             look-controls="pointerLockEnabled: true">
           </a-entity>
-        <a-entity oculus-touch-controls="hand: left" srl-oculus-touch-locomotion="">
+        <a-entity 
+          hand-controls="hand: left; handModelStyle: lowPoly; color: #ffe2c9"
+          material="wireframe: true"
+          srl-oculus-touch-locomotion="">
         </a-entity>
-        <a-entity oculus-touch-controls="hand: right" srl-oculus-touch-locomotion="">
+        <a-entity
+          hand-controls="hand: right; handModelStyle: lowPoly; color: #e7cbb5"
+          srl-oculus-touch-locomotion="">
         </a-entity>
       </a-entity>
 
